@@ -1,0 +1,22 @@
+body {
+    background-color: #EFEFEF;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    font-size: 14px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.nav > li {
+    margin: 0 10px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: inherit;
+}
