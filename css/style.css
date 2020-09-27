@@ -15,11 +15,11 @@ body {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding: 0;
+    padding: 1px 0;
 }
 
 .nav > li {
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 .nav > li > a {
@@ -29,6 +29,7 @@ body {
 
 .header {
     background-color: #fff;
+    padding-top: 12px;
 }
 
 .header-top {
@@ -51,7 +52,11 @@ body {
     width: 80px;
     height: 80px;
     background-image: url(../img/logo.svg);
-    margin-right: 10px;
+    margin-right: 20px;
+}
+
+.logo-title {
+    letter-spacing: 4px;
 }
 
 .header-info span {
@@ -64,17 +69,21 @@ body {
     border-radius: 40px;
     border: 2px solid #66C05D;
     background-color: transparent;
-    padding: 10px 15px;
-    margin-left: 20px;
+    padding: 10px 24px;
+    margin-left: 35px;
 }
 
 .header-bottom {
-    padding: 15px 0;
+    padding: 24.5px 0 28px 0;
 }
 
 .header-bottom .nav {
     font-size: 16px;
     margin: 0;
+}
+
+.header-bottom .nav > li {
+    margin: 0 20px;
 }
 
 hr {
@@ -85,20 +94,22 @@ hr {
 
 .banner {
     background-image: url(../img/bg.png);
-    padding: 150px 0;
+    padding: 160px 0 205px 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     color: white;
 }
 
-.title {
+.banner-title {
     font-size: 48px;
     font-weight: 700;
+    margin-bottom: 40px;
 }
 
 .banner p {
-    margin-bottom: 50px;
+    line-height: 20px;
+    margin-bottom: 58px;
     max-width: 315px;
 }
 
@@ -107,5 +118,6 @@ hr {
     text-decoration: none;
     border: 2px solid white;
     border-radius: 40px;
-    padding: 9px 47px;
+    padding: 9px 45px;
+    letter-spacing: 0.5px;;
 }
