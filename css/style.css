@@ -136,14 +136,6 @@ hr {
     color: #66C05D;
 }
 
-/*.bg-white {
-    background-color: #fff;
-}*/
-
-.bg-green {
-    background-color: #66C05D;
-}
-
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -167,7 +159,7 @@ hr {
 
  .grid-item-product {
     text-align: center;
-    padding: 25px 20px 10px 20px;
+    padding: 25px 20px 15px 20px;
     background-color: #fff;
  }
 
@@ -198,8 +190,8 @@ hr {
     margin-bottom: 10px;
  }
  .item-buy:hover {
-     background-color: #fff;
-     color: #66C05D;
+    background-color: #fff;
+    color: #66C05D;
  }
 
  .grid-item-info-left {
@@ -210,4 +202,64 @@ hr {
  .grid-item-info-right {
     grid-column: 3/5;
     grid-row: 3/4;
- }
+}
+
+.bg-green {
+    background-color: #66C05D;
+    color: white;
+    line-height: 21px;
+    padding: 33px 46px 32px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg-green .info-header {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top:  0;
+    margin-bottom: 22px;
+}
+
+.bg-green .info-input {
+    outline: none;
+    font-size: 14px;
+    line-height: 16px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 9px 32px 9px 25px;
+}
+
+.bg-green .info-text {
+    margin-bottom: 25px;
+}
+
+::-webkit-input-placeholder {
+    color:#C4C4C4;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+.grid-item-info-left, .grid-item-info-right {
+    margin-top: 80px;
+}
+
+.grid-item-info-right .info-header {
+    margin-top: 1px;
+}
+.grid-item-info-right .bg-green {
+    padding-bottom: 30px;
+}
+ .info-map {
+    display: block;
+    max-width: 170px;
+    padding: 5px 27px;
+    letter-spacing: 0;
+    margin-bottom: 6px;
+
+}
